@@ -1,0 +1,82 @@
+{
+  "development": {
+    "db": {
+      "mysql": {
+        "host": "localhost",
+        "database": "database_name",
+        "username": "username",
+        "password": "password",
+        "port": "3306",
+        "max_connections": 5,
+        "min_connections": 0,
+        "connect_time_out": 5000,
+        "remove_idle_time": 1000,
+        "logging": true
+      },
+      "redis": {
+        "host": "localhost",
+        "port": 6379,
+        "password": "redis_password"
+      }
+    },
+    "blockchain": {
+      "tron": {
+        "rpc_url": "https://api.trongrid.io",
+        "headers": {
+          "TRON-PRO-API-KEY": "your_trongrid_api_key"
+        },
+        "tokens": {
+          "usdt": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+          "wtrx": "TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR"
+        },
+        "sunswap": {
+          "factory": "TKWJdrQkqHisa1X8HUdHEfREvTzw4pMAaY",
+          "router": "TXF1xDbVGdxFGbovmmmXvBGu8ZiE3Lq4mR"
+        }
+      }
+    },
+    "telegram": {
+      "token": "your_test_telegram_bot_token"
+    }
+  },
+  "production": {
+    "db": {
+      "mysql": {
+        "host": "localhost",
+        "database": "database_name",
+        "username": "username",
+        "password": "password",
+        "port": "3306",
+        "max_connections": 5,
+        "min_connections": 0,
+        "connect_time_out": 5000,
+        "remove_idle_time": 1000,
+        "logging": true
+      },
+      "redis": {
+        "host": "redis",
+        "port": 6379,
+        "password": "redis_password"
+      }
+    },
+    "blockchain": {
+      "tron": {
+        "rpc_url": "https://api.trongrid.io",
+        "headers": {
+          "TRON-PRO-API-KEY": "your_trongrid_api_key"
+        },
+        "tokens": {
+          "usdt": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+          "wtrx": "TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR"
+        },
+        "sunswap": {
+          "factory": "TKWJdrQkqHisa1X8HUdHEfREvTzw4pMAaY",
+          "router": "TXF1xDbVGdxFGbovmmmXvBGu8ZiE3Lq4mR"
+        }
+      }
+    },
+    "telegram": {
+      "token": "your_test_telegram_bot_token"
+    }
+  }
+}
