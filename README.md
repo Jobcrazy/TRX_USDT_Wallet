@@ -1,5 +1,5 @@
 # 妙蛙钱包
-**妙蛙钱包** 是一个Telegram小程序，它是基于TRON网络的数字钱包，支持基于TRON的两种代币：TRX和USDT。您可以用 **Telegram** 搜索并添加 **```@TuWallet```** 来体验它。
+**妙蛙钱包** 是一个Telegram小程序，它是基于TRON网络的数字钱包，支持基于TRON的两种代币：TRX和USDT。您可以用 **Telegram** 搜索并添加 **```@TuWalletBot```** 来体验它。
 
 ## 起因
 有感于TRON的中文开发文档匮乏，而用于实现分布式代币兑换的SunSwap文档处处是错误(远比UniSwap差)，所以我开发并开源了这个项目，以此为社区做点贡献。
